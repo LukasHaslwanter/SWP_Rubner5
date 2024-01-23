@@ -21,7 +21,7 @@ def write(stats):
 def printstats():
     with open(dateipfad, 'r') as datei:
         stats = json.loads(datei.read())
-        print(stats)
+        print(stats) 
 
 def startespiel():
     benutzerEingabe = int(input("Eingabe(Spock=0/Echse=1/Stein=2/Papier=3/Schere=4: "))
